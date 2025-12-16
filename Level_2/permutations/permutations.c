@@ -6,7 +6,7 @@
 /*   By: muhakhan <muhakhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/16 17:57:49 by muhakhan          #+#    #+#             */
-/*   Updated: 2025/12/16 18:54:07 by muhakhan         ###   ########.fr       */
+/*   Updated: 2025/12/16 18:55:56 by muhakhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,6 +120,11 @@ int	main(int ac, char *av[])
 	make_perms(length, str, all_perms, 0, &perms_index);
 	sort_perms(total_perms, all_perms);
 	for (int i = 0; i < total_perms; i ++)
+	{
 		printf("%s\n", all_perms[i]);
+		free(all_perms[i]);
+	}
+	free(all_perms);
+	free(str);
 	return (0);
 }
