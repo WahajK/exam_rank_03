@@ -6,7 +6,7 @@
 /*   By: muhakhan <muhakhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/16 17:57:49 by muhakhan          #+#    #+#             */
-/*   Updated: 2025/12/16 18:55:56 by muhakhan         ###   ########.fr       */
+/*   Updated: 2025/12/16 19:07:43 by muhakhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,9 +105,9 @@ int	main(int ac, char *av[])
 	int	length;
 	int	total_perms;
 	int	perms_index = 0;
-	char *str = ft_strdup(av[1]);
 	if (ac != 2)
 		return (1);
+	char *str = ft_strdup(av[1]);
 	length = ft_strlen(av[1]);
 	if (length < 1)
 		return (0);
