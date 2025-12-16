@@ -1,19 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filter.c                                           :+:      :+:    :+:   */
+/*   filter_solution.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: muhakhan <muhakhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/26 21:25:23 by muhakhan          #+#    #+#             */
-/*   Updated: 2025/12/01 18:31:50 by muhakhan         ###   ########.fr       */
+/*   Updated: 2025/12/16 17:20:52 by muhakhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Don't know if this is correct or not, study at your own risk
 
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #define BUFFER_SIZE 10001
 
 int ft_strncmp(char *s1, char *s2, int n)
