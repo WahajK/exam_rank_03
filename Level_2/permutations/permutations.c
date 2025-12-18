@@ -6,7 +6,7 @@
 /*   By: muhakhan <muhakhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/16 17:57:49 by muhakhan          #+#    #+#             */
-/*   Updated: 2025/12/16 19:07:43 by muhakhan         ###   ########.fr       */
+/*   Updated: 2025/12/16 19:30:21 by muhakhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,6 @@ int ft_strcmp(char *s1, char *s2)
     }
     return (s1[i] - s2[i]);
 }
-
 
 void	sort_perms(int len, char **perms)
 {
